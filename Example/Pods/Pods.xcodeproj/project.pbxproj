@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		268BE19896397E8E9143CCAE3D1F0650 /* MMPersianDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09897CA0C2BB66AF1ADA889EB08EB563 /* MMPersianDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		278F63ECD4C6EE48C8CFFC83790D39B3 /* MMCalenderViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2BA68A49408236172C0507BFE37B40E2 /* MMCalenderViewController.xib */; };
+		334C82ECE52B2BB74E31593C37ADC8D3 /* AnimationCalenderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4004CFA35B30BA5AC532F15956561B /* AnimationCalenderController.swift */; };
 		49AB8B79E17FA0AEE7EA23219D441BC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		82855142CAB33725D6452E19F5F47D11 /* MMCalenderGenerateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7D36E95352C16B5E71865D0AE47FE /* MMCalenderGenerateData.swift */; };
 		8B5FEA603A982FEF1EC7F612929B90D3 /* MMPersianDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0BF4B5BCC8C339C105ACC6597C2378 /* MMPersianDatePicker-dummy.m */; };
+		8EBBAD8DA7135EFD71C03CB286775FF4 /* MMDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46EA63E411370FAA6EB5ABB7C0DAEC5 /* MMDate.swift */; };
 		AD5B5FD31FE32E8CFDE0FC97F01A4A10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		B08211DB9C00E5E4A082EA9A891F17DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		BC776316553B0B53C7EECCA90810905A /* Pods-MMPersianDatePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 756BB8A0A87C53AFD0DB7A595FF95F0F /* Pods-MMPersianDatePicker_Example-dummy.m */; };
+		D26B7436BBECFDC1BD4B24B8F9BCB90B /* MMCalenderEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED52BFF749F1B89A97BD242433E6CA6 /* MMCalenderEntry.swift */; };
+		E8F12DD53845642CA7292BBF49077F79 /* MMCalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B42D65E813723B73CFD81BA5B2B15B /* MMCalenderViewController.swift */; };
+		F51E07FD3F9A522AC835A411ECD1FF92 /* MMCalenderValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F949AA5CAC54B4807C89B1A81094BF12 /* MMCalenderValidator.swift */; };
 		FD0FC85757003D020A2342F74EEFAA59 /* Pods-MMPersianDatePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50138412C5878CB912547320E7A85BAC /* Pods-MMPersianDatePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -27,35 +34,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09143D1A0B4D3B6F72C55E0D3069BBA2 /* Pods_MMPersianDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMPersianDatePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09143D1A0B4D3B6F72C55E0D3069BBA2 /* Pods_MMPersianDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MMPersianDatePicker_Example.framework; path = "Pods-MMPersianDatePicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09897CA0C2BB66AF1ADA889EB08EB563 /* MMPersianDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMPersianDatePicker-umbrella.h"; sourceTree = "<group>"; };
 		17253664C15DCFF0579002587C63A3C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		197434142BC640C08C7B8EC69CCF1047 /* Pods-MMPersianDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMPersianDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1A44B45D7171478355D98E046E87C1AC /* MMPersianDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMPersianDatePicker-prefix.pch"; sourceTree = "<group>"; };
-		30646809AF0E7C200C1BB53D897308F4 /* MMPersianDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMPersianDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA68A49408236172C0507BFE37B40E2 /* MMCalenderViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MMCalenderViewController.xib; path = MMPersianDatePicker/Classes/Calender/MMCalenderViewController.xib; sourceTree = "<group>"; };
+		30646809AF0E7C200C1BB53D897308F4 /* MMPersianDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMPersianDatePicker.framework; path = MMPersianDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		441F87D526B33FF08E8A66DEFC4968B6 /* Pods-MMPersianDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMPersianDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4ED52BFF749F1B89A97BD242433E6CA6 /* MMCalenderEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMCalenderEntry.swift; path = MMPersianDatePicker/Classes/Calender/MMCalenderEntry.swift; sourceTree = "<group>"; };
 		50138412C5878CB912547320E7A85BAC /* Pods-MMPersianDatePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMPersianDatePicker_Example-umbrella.h"; sourceTree = "<group>"; };
-		6E51E55F1C5FBE661D7E4438324599F6 /* Pods-MMPersianDatePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MMPersianDatePicker_Example.modulemap"; sourceTree = "<group>"; };
-		6EDD20F22025E27800395A10 /* MMCalenderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMCalenderViewController.xib; sourceTree = "<group>"; };
-		6EDD20F32025E27800395A10 /* MMCalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMCalenderViewController.swift; sourceTree = "<group>"; };
-		6EDD20F42025E27800395A10 /* MMDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMDate.swift; sourceTree = "<group>"; };
-		6EDD20F52025E27800395A10 /* AnimationCalenderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCalenderController.swift; sourceTree = "<group>"; };
-		6EDD20F62025E27800395A10 /* MMCalenderGenerateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMCalenderGenerateData.swift; sourceTree = "<group>"; };
-		6EDD20F72025E27800395A10 /* MMCalenderEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMCalenderEntry.swift; sourceTree = "<group>"; };
-		6EDD20F82025E27800395A10 /* MMCalenderValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMCalenderValidator.swift; sourceTree = "<group>"; };
-		6EDD20F92025E27800395A10 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		6E51E55F1C5FBE661D7E4438324599F6 /* Pods-MMPersianDatePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MMPersianDatePicker_Example.modulemap"; sourceTree = "<group>"; };
 		756BB8A0A87C53AFD0DB7A595FF95F0F /* Pods-MMPersianDatePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMPersianDatePicker_Example-dummy.m"; sourceTree = "<group>"; };
 		783211C6D6DCCD73967A1872870A01A1 /* MMPersianDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMPersianDatePicker.xcconfig; sourceTree = "<group>"; };
 		87A1E2F51DE49D0E09863CD0B64CFEE8 /* Pods-MMPersianDatePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMPersianDatePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8E130D3267E60597EA398BEC9CAEA69E /* Pods-MMPersianDatePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMPersianDatePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB452064762A5372BA85439FD9C3F353 /* MMPersianDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MMPersianDatePicker.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99B42D65E813723B73CFD81BA5B2B15B /* MMCalenderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMCalenderViewController.swift; path = MMPersianDatePicker/Classes/Calender/MMCalenderViewController.swift; sourceTree = "<group>"; };
+		AB452064762A5372BA85439FD9C3F353 /* MMPersianDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MMPersianDatePicker.modulemap; sourceTree = "<group>"; };
+		AF4004CFA35B30BA5AC532F15956561B /* AnimationCalenderController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationCalenderController.swift; path = MMPersianDatePicker/Classes/Calender/AnimationCalenderController.swift; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B6E7D36E95352C16B5E71865D0AE47FE /* MMCalenderGenerateData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMCalenderGenerateData.swift; path = MMPersianDatePicker/Classes/Calender/MMCalenderGenerateData.swift; sourceTree = "<group>"; };
 		BF4B728F6E2E4E8DECA7546F715485F3 /* Pods-MMPersianDatePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMPersianDatePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C46EA63E411370FAA6EB5ABB7C0DAEC5 /* MMDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMDate.swift; path = MMPersianDatePicker/Classes/Calender/MMDate.swift; sourceTree = "<group>"; };
 		D09ED42B448D3D7BA40A1B2340F6ACF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DD0BF4B5BCC8C339C105ACC6597C2378 /* MMPersianDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMPersianDatePicker-dummy.m"; sourceTree = "<group>"; };
 		E40E93D4038B2E8B82D44F9D03FE90A4 /* Pods-MMPersianDatePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMPersianDatePicker_Example-resources.sh"; sourceTree = "<group>"; };
+		F949AA5CAC54B4807C89B1A81094BF12 /* MMCalenderValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMCalenderValidator.swift; path = MMPersianDatePicker/Classes/Calender/MMCalenderValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +88,13 @@
 		38D08780B03CC71694C15D6AED260083 /* MMPersianDatePicker */ = {
 			isa = PBXGroup;
 			children = (
-				6EDD20F02025E27800395A10 /* Classes */,
+				AF4004CFA35B30BA5AC532F15956561B /* AnimationCalenderController.swift */,
+				4ED52BFF749F1B89A97BD242433E6CA6 /* MMCalenderEntry.swift */,
+				B6E7D36E95352C16B5E71865D0AE47FE /* MMCalenderGenerateData.swift */,
+				F949AA5CAC54B4807C89B1A81094BF12 /* MMCalenderValidator.swift */,
+				99B42D65E813723B73CFD81BA5B2B15B /* MMCalenderViewController.swift */,
+				2BA68A49408236172C0507BFE37B40E2 /* MMCalenderViewController.xib */,
+				C46EA63E411370FAA6EB5ABB7C0DAEC5 /* MMDate.swift */,
 				AA79B21A4D3E970561994C688D1BA8DB /* Support Files */,
 			);
 			name = MMPersianDatePicker;
@@ -112,30 +124,6 @@
 				E66AEE656B190A78D1F2119CCD7499B5 /* Pods-MMPersianDatePicker_Example */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		6EDD20F02025E27800395A10 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6EDD20F12025E27800395A10 /* Calender */,
-				6EDD20F92025E27800395A10 /* .gitkeep */,
-			);
-			name = Classes;
-			path = MMPersianDatePicker/Classes;
-			sourceTree = "<group>";
-		};
-		6EDD20F12025E27800395A10 /* Calender */ = {
-			isa = PBXGroup;
-			children = (
-				6EDD20F22025E27800395A10 /* MMCalenderViewController.xib */,
-				6EDD20F32025E27800395A10 /* MMCalenderViewController.swift */,
-				6EDD20F42025E27800395A10 /* MMDate.swift */,
-				6EDD20F52025E27800395A10 /* AnimationCalenderController.swift */,
-				6EDD20F62025E27800395A10 /* MMCalenderGenerateData.swift */,
-				6EDD20F72025E27800395A10 /* MMCalenderEntry.swift */,
-				6EDD20F82025E27800395A10 /* MMCalenderValidator.swift */,
-			);
-			path = Calender;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -263,11 +251,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					757F388D4C01E4781360EF4D784F19EB = {
-						LastSwiftMigration = 0920;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -300,6 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				334C82ECE52B2BB74E31593C37ADC8D3 /* AnimationCalenderController.swift in Sources */,
+				D26B7436BBECFDC1BD4B24B8F9BCB90B /* MMCalenderEntry.swift in Sources */,
+				82855142CAB33725D6452E19F5F47D11 /* MMCalenderGenerateData.swift in Sources */,
+				F51E07FD3F9A522AC835A411ECD1FF92 /* MMCalenderValidator.swift in Sources */,
+				E8F12DD53845642CA7292BBF49077F79 /* MMCalenderViewController.swift in Sources */,
+				278F63ECD4C6EE48C8CFFC83790D39B3 /* MMCalenderViewController.xib in Sources */,
+				8EBBAD8DA7135EFD71C03CB286775FF4 /* MMDate.swift in Sources */,
 				8B5FEA603A982FEF1EC7F612929B90D3 /* MMPersianDatePicker-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,7 +310,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 783211C6D6DCCD73967A1872870A01A1 /* MMPersianDatePicker.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -352,7 +341,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 783211C6D6DCCD73967A1872870A01A1 /* MMPersianDatePicker.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

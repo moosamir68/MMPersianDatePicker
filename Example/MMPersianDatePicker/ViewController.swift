@@ -40,7 +40,7 @@ class ViewController: UIViewController, MMCalenderDelegate {
         let maxDate = MMSimpleDate(year: year + 25, month: 12, day: 31)
         let defaultDate = minDate.mutableCopy() as! MMSimpleDate
         
-        let controller  = MMCalenderViewController(minDate: minDate, maxDate: maxDate, defaultDate: defaultDate)
+        let controller  = MMCalenderViewController(minDate: nil, maxDate: nil, defaultDate: nil)
         controller.transitioningDelegate = self
         controller.fontRow = UIFont(name: DEFAULT_FONT_NAME_LIGHT, size: 14.0)!
         controller.fontButton = UIFont(name: DEFAULT_FONT_NAME_BOLD, size: 14.0)!
