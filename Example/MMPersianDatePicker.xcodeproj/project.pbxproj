@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D7F2943634ABBFAC1BB04BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0D7F2943634ABBFAC1BB04BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		170A7E37436A6962048C8089 /* Pods_MMPersianDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMPersianDatePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BB845F8E3974938EBA017E /* Pods-MMPersianDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMPersianDatePicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMPersianDatePicker_Tests/Pods-MMPersianDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		52D0BE0AC9BB4B0D3D8E5097 /* MMPersianDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MMPersianDatePicker.podspec; path = ../MMPersianDatePicker.podspec; sourceTree = "<group>"; };
+		52D0BE0AC9BB4B0D3D8E5097 /* MMPersianDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MMPersianDatePicker.podspec; path = ../MMPersianDatePicker.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MMPersianDatePicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMPersianDatePicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		65D834BF0144455B6F17113A /* Pods_MMPersianDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMPersianDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A552753F034535717FC082 /* Pods-MMPersianDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMPersianDatePicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMPersianDatePicker_Tests/Pods-MMPersianDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8FDD1CDEF5B9914777AB5ACE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8FDD1CDEF5B9914777AB5ACE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9A172E32BE8AA071C08A0D3E /* Pods-MMPersianDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMPersianDatePicker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMPersianDatePicker_Example/Pods-MMPersianDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D46961784B3F4D27B48A7F85 /* Pods-MMPersianDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMPersianDatePicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMPersianDatePicker_Example/Pods-MMPersianDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 6Y45SG7J3F;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -517,10 +518,12 @@
 			baseConfigurationReference = D46961784B3F4D27B48A7F85 /* Pods-MMPersianDatePicker_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Y45SG7J3F;
 				INFOPLIST_FILE = MMPersianDatePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = ir.moosamir.MMPersianDatePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -532,10 +535,12 @@
 			baseConfigurationReference = 9A172E32BE8AA071C08A0D3E /* Pods-MMPersianDatePicker_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Y45SG7J3F;
 				INFOPLIST_FILE = MMPersianDatePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = ir.moosamir.MMPersianDatePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;

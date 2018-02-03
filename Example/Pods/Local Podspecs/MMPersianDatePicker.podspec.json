@@ -1,0 +1,22 @@
+{
+  "name": "MMPersianDatePicker",
+  "version": "0.1.0",
+  "summary": "A short description of MMPersianDatePicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Moosa Mir/MMPersianDatePicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Moosa Mir": "moosamir68@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Moosa Mir/MMPersianDatePicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MMPersianDatePicker/Classes/**/*"
+}
