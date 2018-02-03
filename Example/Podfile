@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'MMPersianDatePicker_Example' do
   pod 'MMPersianDatePicker', :path => '../'
-
-  target 'MMPersianDatePicker_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

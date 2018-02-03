@@ -1,9 +1,9 @@
 {
   "name": "MMPersianDatePicker",
   "version": "0.1.0",
-  "summary": "A short description of MMPersianDatePicker.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Moosa Mir/MMPersianDatePicker",
+  "summary": "A short summury of MMPersianDatePicker.",
+  "description": "A short description of MMPersianDatePicker.",
+  "homepage": "https://github.com/moosamir68/MMPersianDatePicker",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,15 @@
     "Moosa Mir": "moosamir68@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Moosa Mir/MMPersianDatePicker.git",
+    "git": "https://github.com/moosamir68/MMPersianDatePicker.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "MMPersianDatePicker/Classes/**/*"
+  "source_files": "MMPersianDatePicker/Classes/**/*",
+  "frameworks": "UIKit",
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.0"
+  }
 }

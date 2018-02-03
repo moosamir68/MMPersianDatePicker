@@ -36,5 +36,10 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>IRANSansMobile-FaNum-Bold.ttf</string>
+		<string>IRANSansMobile-FaNum-Light.ttf</string>
+	</array>
 </dict>
 </plist>
